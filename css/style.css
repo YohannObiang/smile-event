@@ -306,7 +306,7 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
-     background: url(../images/banner.jpg);
+     background: url(../images/bg.png);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding-top: 60px;
@@ -341,6 +341,9 @@ button {
 .rightflex{
      justify-content: end;
      margin-right: -32px;
+}
+.spacebetween{
+     justify-content: space-between;
 }
 .namecompany{
      font-size: 17px;
