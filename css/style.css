@@ -296,6 +296,7 @@ button {
 }
 
 
+
 /*-- header area --*/
 
 
@@ -339,6 +340,7 @@ button {
 }
 .rightflex{
      justify-content: end;
+     margin-right: -32px;
 }
 .namecompany{
      font-size: 17px;
