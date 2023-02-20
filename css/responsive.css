@@ -196,16 +196,16 @@
         display: inherit !important;
         padding: 0;
         width: 100%;
-        margin-top: -82px;
+        margin-top: -73px;
         margin-right: 13px;
     }
     .navigation .navbar-collapse {
         background: #fff;
         padding: 20px;
-        margin-top: 46px;
+        margin-top: 239px;
         position: absolute;
         width: 100%;
-        margin-right: 20px;
+        margin-right: -6px;
         z-index: 999;
     }
     .navigation.navbar-dark .navbar-nav .nav-link {

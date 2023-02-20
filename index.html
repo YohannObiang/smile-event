@@ -69,7 +69,7 @@
                         <div class="full">
                             <div class="center-desk">
                               <div class="logo">
-                                 <a href="index.html"><img src="images/logo.png" alt="#" /> <span  class="namecompany">Smile Event</span></a>
+                                 <a href="index.html"><img src="images/logolong.png" alt="#" /></a>
                               </div>
                            </div>
                         </div>
@@ -82,16 +82,16 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#"> Accueil  </a>
+                                    <a class="nav-link" href="index.html"> Accueil  </a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Offres</a>
+                                    <a class="nav-link" href="offres.html">Offres</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#contact">A propos</a>
+                                    <a class="nav-link" href="about.html">A propos</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="contact.html">Contact</a>
                                  </li>
                               </ul>
                            </div>
@@ -225,10 +225,23 @@
                            <input class="contactus" placeholder=" Adresse email" type="text" name="Email Address">
                         </div>
                         <div class="col-md-6">
-                           <input class="contactus" placeholder="Date of The Event " type="date" name="Date of The Event ">
+
+                           <select name="" id="offer">
+                              <option value="">Package</option>
+                              <option value="Chaises + Maquillage + Photographe">Chaises + Maquillage + Photos/Vidéo</option>
+                           </select>
                         </div>
+                        <label for="date" id="labeldate" class="col-md-6 date" onclick="placehoderRemove()">
+                           <input class="contactus" id="date" placeholder="Date of The Event " type="date" name="Date of The Event ">
+                           <div id="placeholderdate" class="placeholderdate">
+                              <span>Date de l'événement</span>
+                           </div>
+                        </div>
+                        
                         <div class="col-sm-12">
                            <button class="register">Réserver</button>
+                        
+
                         </div>
                      </div>
                   </form>
@@ -382,6 +395,13 @@
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
+      <script>
+         var label = document.getElementById("placeholderdate")
+         function placehoderRemove() {
+            label.remove()
+         }
+
+      </script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
